@@ -1,0 +1,8 @@
+# Versions used for the documented run on Apple M3 Pro / Python 3.11.7.
+torch==2.14.1
+transformers==5.19.0
+trl==1.14.2
+peft==0.21.2
+datasets==5.1.0
+accelerate==1.15.0
+huggingface-hub==1.33.0

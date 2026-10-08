@@ -1,0 +1,3 @@
+{"prompt": [{"role": "user", "content": "Classify this note as WORK, PERSONAL, or SHOPPING. Reply only in the format CATEGORY: <category>.\nNote: Buy milk and bread on the way home."}], "completion": [{"role": "assistant", "content": "CATEGORY: SHOPPING"}]}
+{"prompt": [{"role": "user", "content": "Classify this note as WORK, PERSONAL, or SHOPPING. Reply only in the format CATEGORY: <category>.\nNote: Review the project proposal before Friday."}], "completion": [{"role": "assistant", "content": "CATEGORY: WORK"}]}
+{"prompt": [{"role": "user", "content": "Classify this note as WORK, PERSONAL, or SHOPPING. Reply only in the format CATEGORY: <category>.\nNote: Call Mom on Sunday."}], "completion": [{"role": "assistant", "content": "CATEGORY: PERSONAL"}]}
