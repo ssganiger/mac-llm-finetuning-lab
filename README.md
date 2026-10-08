@@ -190,7 +190,3 @@ If you change the labels or dataset, keep training and test examples separate. R
 | Missing `outputs/note-lora` | Training has not completed and saved the adapter; inspect the training error first. |
 | Out-of-memory error | Close other memory-heavy apps and confirm the model is the 0.5B version. A smaller batch is already used. |
 | Loss is `nan` or `inf` | Stop and keep the full log; check package versions and training settings before interpreting results. |
-
-## Next exercise: gpt-oss-20b with MLX
-
-The planned second exercise will fine-tune `gpt-oss-20b` locally with MLX-LM and a Hugging Face model copy. It will reuse the concepts here: training examples, chat formatting, a frozen base, LoRA weights, and held-out comparison. An Ollama `gpt-oss:20b` download is a separate inference-format copy. The MLX procedure will be added after it is run and verified on the Mac; this repository currently contains **only the completed Qwen/TRL exercise**.
